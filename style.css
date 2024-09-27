@@ -13,7 +13,7 @@
                 justify-content: space-between;
                 align-items: center;
                 padding: 10px 200px;
-                ;
+                
             }
             
             header .logo {
@@ -123,6 +123,7 @@
             .container .ff {
                 display: block;
                 margin-bottom: 10px;
+                        padding:30px;
             }
             
             .container .ff p {
