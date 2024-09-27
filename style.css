@@ -137,7 +137,8 @@
                 gap: 10px;
                 padding: 50px;
             }
-.container .c{padding-left:50px;}
+.container .c{margin-right:30px;}
+.container .c p{ font-size:15px;  }
             
             h1 {
                 text-align: center;
