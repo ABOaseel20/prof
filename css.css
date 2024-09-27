@@ -1,0 +1,50 @@
+@media (max-width: 767px) {
+    .content {
+        display: block;
+        background-color: #cae8ca;
+        width: 10px;
+        transition: .5s;
+        border-radius: 25px;
+        width: 300px;
+        position: relative;
+        right: 60px;
+    }
+    .content a {
+        padding: 10px;
+        position: relative;
+        width: 450px;
+        margin: 5px;
+        border-radius: 25px;
+        text-align: center;
+    }
+    .content a:hover {
+        background-color: #fff;
+        color: #1f6f23;
+    }
+    .main {
+        display: block;
+    }
+    .side {
+        display: block;
+    }
+    .side .line,
+    .line2,
+    .line3 {
+        display: none;
+    }
+    .container {
+        display: block;
+    }
+    .container .box {
+        position: relative;
+        right: 80px;
+    }
+    .container .boxex {
+        position: relative;
+        right: 80px;
+    }
+    .container .boxed {
+        position: relative;
+        right: 80px;
+    }
+}

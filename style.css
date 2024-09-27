@@ -1,0 +1,410 @@
+            body {
+                direction: rtl;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+                scroll-behavior: smooth;
+            }
+            
+            header {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 200px;
+                ;
+            }
+            
+            header .logo {
+                width: 350px;
+                height: 100px;
+                animation: slideImage 1s ease forwards;
+                animation-delay: calc(.2s * var(--i));
+                opacity: 0;
+            }
+            
+            .navigation a {
+                color: lightgreen;
+                background-color: darkgreen;
+                text-decoration: none;
+                font-size: 1.1em;
+                font-weight: 500;
+                padding: 10px;
+                animation: slide 1s ease forwards;
+                animation-delay: calc(.2s * var(--i));
+                opacity: 0;
+            }
+            
+            .navigation a:hover {
+                background-color: lightgreen;
+                color: darkgreen;
+            }
+            
+            .content {
+                width: 100%;
+                padding: 10px 200px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                align-content: center;
+                position: relative;
+                top: 100px;
+            }
+            
+            .content a {
+                text-decoration: none;
+                font-size: 1.1em;
+                color: darkgreen;
+                animation: slide 1s ease forwards;
+                animation-delay: calc(.2s * var(--i));
+                animation-delay: 1.3s;
+                opacity: 0;
+            }
+            
+            section {
+                padding: 10px 220px;
+            }
+            
+            section {
+                padding: 10px 200px;
+            }
+            
+            .line {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                animation: slideTop .5s ease forwards;
+                animation-delay: .5s;
+            }
+            
+            .line .line1 {
+                border-bottom: 4px solid green;
+                width: 350px;
+                background-color: lightgreen;
+            }
+            
+            .side p {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            .container {
+                padding: 10px 40px;
+            }
+            
+            .slc a {
+                animation: slideT .5s ease forwards;
+                animation-delay: calc(.2s * var(--i));
+                opacity: 0;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            p {
+                width: 350px;
+                font-size: 20px;
+                font-weight: bold;
+                color: darkgreen;
+            }
+            
+            h1 {
+                color: darkseagreen;
+                font-size: 20px;
+            }
+            
+            .container .ff {
+                display: block;
+                margin-bottom: 10px;
+            }
+            
+            .container .ff p {
+                font-size: 20px;
+                padding: 10px;
+            }
+            
+            .container .b {
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+                padding: 50px;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .container .b .mm {
+                width: 150px;
+                height: 60px;
+            }
+            
+            .c .title {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: bold;
+                color: darkgreen;
+                margin-bottom: 10px;
+            }
+            
+            .car {
+                display: flex;
+                justify-content: center;
+                padding: 25px;
+                margin-bottom: 20px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            .container img {
+                width: 300px;
+                height: 200px;
+            }
+            
+            .carded {
+                margin: 15px;
+                box-shadow: 0 5px 25px rgba(1 1 1/15%);
+                border-radius: 8px;
+                padding: 25px;
+                transition: 0.7s ease;
+                animation: slideTR 1s ease forwards;
+                animation-delay: .5s;
+            }
+            
+            .info {
+                text-align: center;
+            }
+            
+            h3 {
+                color: darkgreen;
+                margin: 10px;
+            }
+            
+            .carded:hover {
+                transform: scale(1.1);
+            }
+            
+            .bodc {
+                padding: 10px 120px;
+                animation: slideLf 2s ease forwards;
+                animation-delay: 2s;
+            }
+            
+            .project {
+                display: block;
+                box-shadow: 0px 5px 25px rgba(1 1 1/15%);
+                padding: 25px;
+                margin: 10px;
+                transition: 0.7s ease;
+                border-radius: 8px;
+            }
+            
+            .project:hover {
+                transform: scale(1.1);
+            }
+            
+            .gg {
+                display: flex;
+                justify-content: space-evenly;
+                color: darkcyan;
+                font-weight: bold;
+            }
+            
+            .gg .st {
+                margin-right: 50%;
+            }
+            
+            .txt {
+                margin-top: 30px;
+                width: 100%;
+                margin-right: 10%;
+                color: darkgreen;
+                font-weight: bold;
+            }
+            
+            .contact {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .carder {
+                box-shadow: 0 5px 25px rgba(1 1 1/15%);
+                padding: 25px;
+                margin: 10px;
+            }
+            
+            .infor {
+                text-align: center;
+            }
+            
+            .icon {
+                font-size: 4.5em;
+                color: darkgreen;
+                text-align: center;
+            }
+            
+            footer {
+                background-color: #000;
+                color: #fff;
+                padding: 2em;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .fgt {
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+            
+            .fgt span {
+                color: darkgreen;
+            }
+            
+            footer .socialIcons a {
+                font-size: 1.2em;
+                padding: 0 12px 0 0;
+            }
+            
+            .nav-item {
+                font-size: 20px;
+                margin: 20px;
+                color: darkgreen;
+                font-weight: bold;
+            }
+            
+            .nav-link {
+                color: darkgreen;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            @media(max-width:1023px) {
+                header {
+                    padding: 5px 50px;
+                    margin: 10px;
+                    display: flex;
+                    gap: 15px;
+                    justify-content: space-around;
+                }
+                header a {
+                    position: relative;
+                    bottom: 10%;
+                }
+                .title {
+                    font-size: 1.8e;
+                }
+                section {
+                    padding: 80px 20px;
+                }
+                .content {
+                    flex-direction: column;
+                }
+                .project {
+                    flex-direction: column;
+                }
+                .bodc {
+                    padding: 10px 20px;
+                }
+                .contact {
+                    flex-direction: column;
+                }
+                footer {
+                    flex-direction: column;
+                }
+                .socialIcons {
+                    flex-direction: column;
+                }
+                .nav-item {
+                    font-size: 18px;
+                    margin: 7px;
+                    color: #fff;
+                    font-weight: bold;
+                    background-color: orange;
+                    border-radius: 15px;
+                    text-align: center;
+                }
+                .navigation a {
+                    font-size: 1.0em;
+                    margin: 5px;
+                    padding: 20px;
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                }
+                .container .b {
+                    padding: 30px 10px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
+            
+            @keyframes slide {
+                0% {
+                    transform: translateX(100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideImage {
+                0% {
+                    transform: translateX(-100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideT {
+                0% {
+                    transform: translateX(100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideTop {
+                0% {
+                    transform: translateX(-100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideTR {
+                0% {
+                    transform: scale(.5);
+                    opacity: 0;
+                }
+                100% {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideLf {
+                0% {
+                    transform: rotate(45deg);
+                    opacity: 0;
+                }
+                100% {
+                    transform: rotate(0);
+                    opacity: 1;
+                }
+            }
